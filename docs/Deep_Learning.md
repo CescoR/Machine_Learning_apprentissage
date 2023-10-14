@@ -888,6 +888,8 @@ Le $RNN$ que nous venons d'ajuster a beaucoup de points communs avec un modèle 
 
 
 
+
+
 $$
 \mathbf{y}=\left[\begin{array}{c}
 v_ {L + 1} \\
@@ -904,6 +906,8 @@ v_ T
 1 & v_ {T - 1} & v_ {T - 2} & \cdots & v_ {T - L}
 \end{array}\right] \hspace{6 em} (10.21)
 $$
+
+
 
 
 
