@@ -890,18 +890,18 @@ Le $RNN$ que nous venons d'ajuster a beaucoup de points communs avec un modèle 
 
 $$
 \mathbf{y}=\left[\begin{array}{c}
-v_{L+1} \\
-v_{L+2} \\
-v_{L+3} \\
+v_ {L + 1} \\
+v_ {L + 2} \\
+v_ {L + 3} \\
 \vdots \\
-v_T
+v_ T
 \end{array}\right] \quad \mathbf{M}=\left[\begin{array}{ccccc}
 
-1 & v_L & v_{L-1} & \cdots & v_1 \\
-1 & v_{L+1} & v_L & \cdots & v_2 \\
-1 & v_{L+2} & v_{L+1} & \cdots & v_3 \\
+1 & v_ L & v_ {L - 1} & \cdots & v_ 1 \\
+1 & v_ {L + 1} & v_ L & \cdots & v _ 2 \\
+1 & v_ {L + 2} & v_ {L + 1} & \cdots & v_ 3 \\
 \vdots & \vdots & \vdots & \ddots & \vdots \\
-1 & v_{T-1} & v_{T-2} & \cdots & v_{T-L}
+1 & v_ {T - 1} & v_ {T - 2} & \cdots & v_ {T - L}
 \end{array}\right] \hspace{6 em} (10.21)
 $$
 
