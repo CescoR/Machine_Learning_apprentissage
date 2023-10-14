@@ -4,38 +4,7 @@
 
 <a name="toc"/>
 
-[8.1 Régression polynomiale](#8-1)
-
-[8.2 Fonctions échelon](#8-2)
-
-[8.3 Fonctions de base](#8-3)
-
-[8.4 Splines de régression](#8-4)
-
-- [8.4.1 Polynômes par morceaux](#8-4-1)
-
-- [8.4.2 Contraintes et splines](#8-4-2)
-
-- [8.4.3 La représentation de base des splines](#8-4-3)
-
-- [8.4.4 Choix du nombre et de l'emplacement des nœuds](#8-4-4)
-
-- [8.4.5 Comparaison avec la régression polynomiale](#8-4-5)
-
-[8.5 Splines de lissage](#8-5)
-
-- [8.5.1 Aperçu des splines de lissage](#8-5-1)
-
-- [8.5.2 Choix du paramètre de lissage $\lambda$.](#8-5-2) 
-
-[8.6 Régression locale](#8-6)
-
-- [8.7 Modèles additifs généralisés](#8-7)
-
-- [8.7.1 MAG pour les problèmes de régression](#8-7-1)
-  - [8.7.1.1 Avantages et inconvénients des MAG](#8-7-1-1)
-
-- [8.7.2 Les MAG pour les problèmes de classification](#8-7-2)
+[toc]
 
 Jusqu'à présent, dans cet ouvrage, nous nous sommes principalement concentrés sur les modèles linéaires. Les modèles linéaires sont relativement simples à décrire et à mettre en œuvre, et présentent des avantages par rapport à d'autres approches en termes d'interprétation et d'inférence. Cependant, la régression linéaire standard peut présenter des limites importantes en termes de pouvoir prédictif. Cela est dû au fait que l'hypothèse de linéarité est presque toujours une approximation, et parfois une mauvaise approximation. Le chapitre 6 montre que nous pouvons améliorer les moindres carrés en utilisant la régression ridge, le lasso, la régression en composantes principales et d'autres techniques. Dans ce contexte, l'amélioration est obtenue en réduisant la complexité du modèle linéaire, et donc la variance des estimations. Mais nous utilisons toujours un modèle linéaire, qui ne peut être amélioré que jusqu'à un certain point ! Dans ce chapitre, nous assouplissons l'hypothèse de linéarité tout en essayant de maintenir autant d'interprétabilité que possible. Pour ce faire, nous examinons des extensions très simples des modèles linéaires, comme la régression polynomiale et les fonctions échelon, ainsi que des approches plus sophistiquées telles que les splines, la régression locale et les modèles additifs généralisés.
 

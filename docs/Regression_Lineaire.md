@@ -4,63 +4,7 @@
 
 <a name="toc"/>
 
-[4.1 Régression linéaire simple](#4-1)
-
-- [4.1.1 Estimation des coefficients](#4-1-1)
-
-- [4.1.2 Évaluation de l'exactitude des estimations de coefficients](#4-1-2)
-
-- [4.1.3 Évaluation de la précision du modèle](#4-1-3)
-
-  - [4.1.3.1 Erreur standard résiduelle](#4-1-3-1)
-
-  - [4.1.3.2 Statistique R-carré](#4-1-3-2)
-
-[4.2 Régression linéaire multiple](#4-2)
-
-- [4.2.1 Estimation des coefficients de régression](#4-2-1)
-
-- [4.2.2 Quelques questions importantes](#4-2-2)
-
-  - [4.2.2.1 Un : existe-t-il une relation entre la réponse et les prédicteurs ?](#4-2-2-1)
-
-  - [4.2.2.2 Deux : décide¨r des variables importantes](#4-2-2-2)
-
-  - [4.2.2.3 Trois : Ajustement du modèle](#4-2-2-3)
-
-  - [4.2.2.4 Quatre : Prédictions](#4-2-2-4)
-
-[4.3 Autres considérations sur le modèle de régression](#4-3)
-
-- [4.3.1 Prédicteurs qualitatifs](#4-3-1)
-
-  - [4.3.1.1 Prédicteurs avec seulement deux niveaux](#4-3-1-1)
-
-  - [4.3.1.2 Prédicteurs qualitatifs avec plus de deux niveaux](#4-3-1-2)
-
-- [4.3.2 Extensions du modèle linéaire](#4-3-2)
-
-  - [4.3.2.1 Suppression de l'hypothèse d'additivité](#4-3-2-1)
-
-  - [4.3.2.2 Relations non linéaires](#4-3-2-2)
-
-- [4.3.3 Problèmes potentiels](#4-3-3)
-
-  - [4.3.3.1 Non-linéarité des données](#4-3-3-1)
-
-  - [4.3.3.2 Corrélation des termes d'erreur](#4-3-3-2)
-
-- [4.3.3.3 Variance non constante des termes d'erreur](#4-3-3-3)
-
-  - [4.3.3.4 Valeurs aberrantes](#4-3-3-4)
-
-  - [4.3.3.5 Points à fort effet de levier](#4-3-3-5)
-
-  - [4.3.3.6 Colinéarité](#4-3-3-6)
-
-[4.4 Le plan de marketing](#4-4)
-
-[4.5 Comparaison de la régression linéaire avec K-Nearest Neighbors](#4-5)
+[toc]
 
 La régression linéaire est un outil utile pour prédire une réponse quantitative. Bien qu'elle puisse sembler quelque peu ennuyeuse comparée à certaines des approches d'apprentissage statistique plus modernes, la régression linéaire reste une méthode d'apprentissage statistique utile et largement utilisée. On ne saurait trop insister sur l'importance de bien comprendre la régression linéaire avant d'étudier des méthodes d'apprentissage plus complexes. 
 

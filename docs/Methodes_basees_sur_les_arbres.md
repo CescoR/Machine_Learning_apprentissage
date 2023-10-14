@@ -4,37 +4,7 @@
 
 <a name="toc"/>
 
-[9.1 Les bases des arbres de décision](#9-1)
-
-- [9.1.1 Arbres de régression](#9-1-1)
-
-  - [9.1.1.1 Prévision des salaires des joueurs de baseball à l'aide d'arbres de régression](#9-1-1-1)
-
-  - [9.1.1.2 Prédiction via la stratification de l'espace des caractéristiques](#9-1-1-2)
-
-  - [9.1.1.3 Élagage de l'arbre](#9-1-1-3)
-
-- [9.1.2 Arbres de classification](#9-1-2)
-
-- [9.1.3 Arbres par rapport aux modèles linéaires](#9-1-3)
-
-- [9.1.4 Avantages et inconvénients des arbres](#9-1-4)
-
-[9.2 Bagging, Forêts Aléatoires, Boosting et arbres de régression additifs bayésiens](#9-2)
-
-- [9.2.1 Mise en sac](#9-2-1)
-
-  - [9.2.1.1 Estimation de l'erreur Out-of-Bag](#9-2-1-1)
-
-  - [9.2.1.2 Mesures de l'importance des variables](#9-2-1-2)
-
-- [9.2.2 Forêts aléatoires](#9-2-2)
-
-- [9.2.3 Boosting](#9-2-3)
-
-- [9.2.4 Arbres de régression additifs bayésiens](#9-2-4)
-
-- [9.2.5 Résumé des méthodes d'ensemble d'arbres](#9-2-5)
+[toc]
 
 Dans cette section, nous décrivons les méthodes de régression et de classification basées sur les arbres. Ces méthodes consistent à stratifier ou à segmenter l'espace de prédiction en un certain nombre de régions simples. Afin d'effectuer une prédiction pour une observation donnée, nous utilisons généralement la valeur de réponse moyenne ou modale pour les observations d'apprentissage dans la région à laquelle elle appartient. 
 

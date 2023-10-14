@@ -4,42 +4,7 @@
 
 <a name="toc"/>
 
-[1 Variables aléatoires](#11)
-
-[2 Distributions, distributions conjointes et distributions marginales](#2)
-
-- [2.1 Distributions conditionnelles](#2-1)
-
-- [2.2 Indépendance](#2-2)
-
-- [2.3 Règle de la chaîne et règle de Bayes](#2-3)
-
-
-[3 Définition d'une distribution de probabilités](#3)
-
-- [3.1 Distribution discrète : Fonction de masse des probabilités](#3-1)
-
-- [3.2 Distribution continue : Fonction de densité de probabilité](#3-2)
-
-[4 Espérance et variance](#4)
-
-- [4.1 Espérances](#4-1)
-
-- [4.2 Variance](#4-2)
-
-[5 Quelques distributions importantes](#5)
-
-- [5.1 Bernoulli](#5-1)
-
-- [5.2 Distribution de Poisson](#5-2)
-
-- [5.3 Gauss](#5-3)
-
-[6 L'astuce du logarithme](#6)
-
-[7 Normalisation retardée](#7)
-
-[8 Inégalité de Jenson](#8)
+[toc]
 
 Un complément à la première partie qui fait référence (donnée au cours de ML 1 de Monsieur Ben Taieb) au cours de Samuel Leong [[18]](https://see.stanford.edu/materials/aimlcs229/cs229-prob.pdf)
 

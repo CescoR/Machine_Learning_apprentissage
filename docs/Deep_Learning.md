@@ -4,49 +4,7 @@
 
 <a name="toc"/>
 
-[10.1 Réseaux neuronaux à couche unique](#10-1)
-
-[10.2 Réseaux neuronaux multicouches](#10-2)
-
-[10.3 Réseaux neuronaux convolutifs](#10-3)
-
-- [10.3.1 Couches de convolution](#10-3-1)
-
-- [10.3.2 Couches de mise en commun](#10-3-2)
-
-- [10.3.3 Architecture d'un réseau de neurones convolutif](#10-3-3)
-
-- [10.3.4 Augmentation des données](#10-3-4)
-
-- [10.3.5 Résultats utilisant un classificateur pré-entraîné](#10-3-5)
-
-[10.4 Classification de documents](#10-4)
-
-[10.5 Réseaux neuronaux récurrents](#10-5)
-
-- [10.5.1 Modèles séquentiels pour la classification de documents](#10-5-1)
-
-- [10.5.2 Prévision des séries temporelles](#10-5-2)
-
-  - [10.5.2.1 Prédicteur RNN](#10-5-2-1)
-
-  - [10.5.2.2 Auto-régression](#10-5-2-2)
-
-- [10.5.3 Résumé des RNN](#10-5-3)
-
-[10.6 Quand utiliser l'apprentissage profond](#10-6)
-
-[10.7 Ajustement d'un réseau neuronal](#10-7)
-
-- [10.7.1 La rétropropagation](#10-7-1)
-
-- [10.7.2 Régularisation et descente de gradient stochastique](#10-7-2)
-
-- [10.7.3 Apprentissage par abandon](#10-7-3)
-
-[10.7.4 Réglage du réseau](#10-7-4)
-
-[10.8 Interpolation et double descente](#10-8)
+[toc]
 
 Cette section aborde le sujet important de l'apprentissage profond. Au moment de la rédaction de ce document (2020), l'apprentissage profond est un domaine de recherche très actif dans les communautés de l'apprentissage automatique et de l'intelligence artificielle. La pierre angulaire de l'apprentissage profond est le réseau neuronal.
 

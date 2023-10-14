@@ -4,19 +4,7 @@
 
 <a name="toc"/>
 
-[6.1 Validation croisée](#6-1)
-
-- [6.1.1 L'approche de l'ensemble de validation](#6-1-1)
-
-- [6.1.2 Validation croisée sans exclusion](#6-1-2)
-
-- [6.1.3 Validation croisée k-Fold](#6-1-3)
-
-- [6.1.4 Compromis biais-variance pour la validation croisée à k-Fold](#6-1-4)
-
-- [6.1.5 Validation croisée sur les problèmes de classification](#6-1-5)
-
-[6.2 Le bootstrap](#6-2)
+[toc]
 
 Les méthodes de rééchantillonnage sont un outil indispensable des statistiques modernes. Elles consistent à tirer de manière répétée des échantillons d'un ensemble d'apprentissage et à réajuster un modèle d'intérêt sur chaque échantillon afin d'obtenir des informations supplémentaires sur le modèle ajusté. Par exemple, afin d'estimer la variabilité de l'ajustement d'une régression linéaire, nous pouvons tirer à plusieurs reprises différents échantillons des données d'apprentissage, ajuster une régression linéaire à chaque nouvel échantillon, puis examiner dans quelle mesure les ajustements résultants diffèrent. Une telle approche peut nous permettre d'obtenir des informations qui ne seraient pas disponibles en ajustant le modèle une seule fois en utilisant l'échantillon d'entraînement original.
 

@@ -4,47 +4,7 @@
 
 <a name="toc"/>
 
-[5.1 Un aperçu de la classification](#5-1)
-
-[5.2 Pourquoi pas la régression linéaire ?](#5-1)
-
-[5.3 La Régression logistique](#5-3)
-
-- [5.3.1 Le modèle logistique](#5-3-1)
-
-- [5.3.2 Estimation des coefficients de régression](#5-3-2)
-
-- [5.3.3 Faire des prédictions](#5-3-3)
-
-- [5.3.4 Régression logistique multiple](#5-3-4)
-
-- [5.3.5 Régression logistique multinomiale](#5-3-5)
-
-[5.4 Modèles génératifs pour la classification](#5-4)
-
-- [5.4.1 Analyse discriminante linéaire pour $p=1$](#5-4-1)
-
-- [5.4.2 Analyse discriminante linéaire pour p>1](#5-4-2)
-
-- [5.4.3 Analyse discriminante quadratique](#5-4-3)
-
-- [5.4.4 Bayes naïf](#5-4-4)
-
-[5.5 Comparaison des méthodes de classification](#5-5)
-
-- [5.5.1 Comparaison analytique](#5-5-1)
-
-- [5.5.2 Une comparaison empirique](#5-5-2)
-
-[5.6 Modèles linéaires généralisés](#5-6)
-
-- [5.6.1 Régression linéaire sur les données de vélos en libre-service](#5-6-1)
-
-- [5.6.2 Régression de Poisson sur les données de Bikeshare](#5-6-2)
-
-- [5.6.3 Modèles linéaires généralisés dans une plus grande généralité](#5-6-3)
-
-
+[toc]
 
 Le modèle de régression linéaire présenté à la section 4 suppose que la *variable réponse* $Y$ est quantitative. 
 

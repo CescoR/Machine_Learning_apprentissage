@@ -4,19 +4,7 @@
 
 <a name="toc"/>
 
-[1. Régression linéaire](#1)
-
-- [1.1 Algorithme LMS](#1-1)
-
-[2. Les équations normales](#2)
-
-- [2.1 Dérivées matricielles](#2-1)
-
-- [2.2 Les moindres carrés revisités](#2-2)
-
-[3 Interprétation probabiliste](#3)
-
-[4 Régression linéaire pondérée localement](#4)
+[toc]
 
 Commençons par évoquer quelques exemples de problèmes d'apprentissage supervisé. Supposons que nous disposions d'un ensemble de données donnant les surfaces habitables et les prix de 47 maisons de Portland, Oregon :
 

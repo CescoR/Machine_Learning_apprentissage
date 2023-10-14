@@ -4,64 +4,7 @@
 
 <a name="toc"/>
 
-[7.1 Sélection de sous-ensembles](#7-1)
-
-- [7.1.1 Sélection du meilleur sous-ensemble](#7-1-1)
-
-- [7.1.2 Sélection par étapes](#7-1-2)
-
-  - [7.1.2.1 Sélection pas à pas directe](#7-1-2-1)
-
-  - [7.1.2.2 Sélection pas à pas vers l'arrière](#7-1-2-2)
-
-  - [7.1.2.3 Approches hybrides](#7-1-2-3)
-
-- [7.1.3 Choix du modèle optimal](#7-1-3)
-
-  - [7.1.3.1 Cp, AIC, BIC, et Rsquare ajusté](#7-1-3-1)
-
-  - [7.1.3.2 Validation et validation croisée](#7-1-3-2)
-
-[7.2 Méthodes de rétrécissement](#7-2)
-
-- [7.2.1 Régression ridge](#7-2-1)
-  - [7.2.1.1 Application aux données de crédit](#7-2-1-1)
-
-- [7.2.2 Le Lasso](#7-2-2)
-
-  - [7.2.2.1 Une autre formulation pour la régression ridge et le Lasso](#7-2-2-1)
-
-  - [7.2.2.2 La propriété de sélection de variables du lasso](#7-2-2-2)
-
-  - [7.2.2.3 Comparaison du lasso et de la régression ridge](#7-2-2-3)
-
-  - [7.2.2.4 Un cas spécial simple pour la régression en crête et le Lasso](#7-2-2-4)
-
-  - [7.2.2.5 Interprétation bayésienne de la régression ridge et du lasso](#7-2-2-5)
-
-- [7.2.3 Sélection du paramètre d'accord](#7-2-3)
-
-[7.3 Méthodes de réduction de dimension](#7-3)
-
-- [7.3.1 Régression en composantes principales](#7-3-1)
-
-  - [7.3.1.1 Aperçu de l'analyse en composantes principaless](#7-3-1-1)
-
-  - [7.3.1.2 L'approche de la régression en composantes principales](#7-3-1-2)
-
-- [7.3.2 Moindres carrés partiels](#7-3-2)
-
-[7.4 Considérations sur les hautes dimensions](#7-4)
-
-- [7.4.1 Données à haute dimension](#7-4-1)
-
-- [7.4.2 Qu'est-ce qui ne va pas en haute dimension ?](#7-4-2)
-
-- [7.4.3 Régression en haute dimension](#7-4-3)
-
-- [7.4.4 Interprétation des résultats en haute dimension](#7-4-4)
-
-
+[toc]
 
 Dans le cadre de la régression, le modèle linéaire standard
 

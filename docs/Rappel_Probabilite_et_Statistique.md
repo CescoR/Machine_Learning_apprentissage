@@ -6,45 +6,7 @@
 
 <a name="toc"/>
 
-[1.1 Espace probabilisé](#1-1)
-
-[1.2 Théorie des probabilités](#1-2)
-
-- [1.2.1 Les axiomes](#1-2-1)
-
-- [1.2.2 Les propriétés](#1-2-2)
-
-[1.3 Lois de probabilités](#1-3)
-
-- [1.3.1 Conditionnelles](#1-3-1)
-  - [1.3.1.1 Définition](#1-3-1-1)
-  - [1.3.1.2 Exemple](#1-3-1-2)
-
-- [1.3.2 Indépendance de deux événements](#1-3-2)
-  - [1.3.2.1 Définition](#1-3-2-1)
-  - [1.3.2.2 Propriété](#1-3-2-2)
-
-- [1.3.3 Indépendance deux à deux et indépendance mutuelle](#1-3-3)
-  - [1.3.3.1 Définition](#1-3-3-1)
-  - [1.3.3.2 Exemple](#1-3-3-2)
-
-- [1.3.4 Formules de Bayes](#1-3-4)
-  - [1.3.4.1 Définition](#1-3-4-1)
-  - [1.3.4.2 Remarques](#1-3-4-2)
-  - [1.3.4.3 Exemple](#1-3-4-3)
-
-[1.4 Réflexion sur le concept de probabilité](#1-4)
-
-- [1.4.1 La conception objectiviste](#1-4-1)
-
-  - [1.4.1.1 La vision classique](#1-4-1-1)
-
-  - [1.4.1.2 La vision fréquentiste](#1-4-1-2)
-
-- [1.4.2 La conception subjectiviste](#1-4-2)
-  - [1.4.2.1 Le bayésianisme](#1-4-2-1)
-
-[1.5 Conclusion](#1-5)
+[toc]
 
 [[7]( http://www.editionstechnip.com/en/catalogue-detail/149/probabilites-analyse-des-donnees-et-statistique.html)] **La théorie des probabilités** est une branche des mathématiques qui traitent des propriétés de certaines structures modélisant des phénomènes où le "hasard" intervient. Par exemple, estimer la probabilité qu'un lancé de dé sorte une séquence de chiffre pair. 
 

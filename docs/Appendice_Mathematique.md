@@ -4,64 +4,7 @@
 
 <a name="toc"/>
 
-[-A- Notation et algèbre matricielle simple](#a)
-
-[-B- Calcul des dérivées partielles : descente de gradient](#b)
-
-[-C- Algèbre Linéaire](#c)
-
-- [C.1 Concepts et notations de base](#c-1)
-  - [C.1.1 Notation de base](#c-1-1)
-
-- [C.2 Multiplication matricielle](#c-2)
-
-  - [C.2.1 Produits vectoriels](#c-2-1)
-
-  - [C.2.2 Produits matrice-vecteur](#c-2-2)
-
-  - [C.2.3 Produits matriciels](#c-2-3)
-
-- [C.3 Opérations et propriétés](#c-3)
-
-  - [C.3.1 Matrice d'identité et matrices diagonales](#c-3-1)
-
-  - [C.3.2 La transposition](#c-3-2)
-
-  - [C.3.3 Matrices symétriques](#c-3-3)
-
-  - [C.3.4 La trace](#c-3-4)
-
-  - [C.3.5 Normes](#c-3-5)
-
-  - [C.3.6 Indépendance linéaire et rang](#c-3-6)
-
-  - [C.3.7 L'inverse](#c-3-7)
-
-  - [C.3.8 Matrices orthogonales](#c-3-8)
-
-  - [C.3.9 Plage et nulspace d'une matrice](#c-3-9)
-
-  - [C.3.10 Le déterminant](#c-3-10)
-
-  - [C.3.11 Formes quadratiques et matrices semi-définies positives](#c-3-11)
-
-  - [C.3.12 Valeurs propres et vecteurs propres](#c-3-12)
-
-  - [C.3.13 Valeurs propres et vecteurs propres des matrices symétriques](#c-3-13)
-
-- [C.4 Calcul matriciel](#c-4)
-
-  - [C.4.1 Le gradient](#c-4-1)
-
-  - [C.4.2 Le hessien](#c-4-2)
-
-  - [C.4.3 Gradients et hessian des fonctions quadratiques et linéaires](#c-4-3)
-
-  - [C.4.4 Les moindres carrés](#c-4-4)
-
-  - [C.4.5 Gradients du déterminant](#c-4-5)
-
-  - [C.4.6 Valeurs propres en tant qu'optimisation](#c-4-6)
+[toc]
 
 <a name="A"/>
 
