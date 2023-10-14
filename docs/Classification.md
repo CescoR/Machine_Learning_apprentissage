@@ -962,7 +962,7 @@ Une fois que nous avons fait l'hypothèse de Bayes naïf, nous pouvons insérer 
 
 
 $$
-{Pr}(Y=k \mid X=x)=\frac{\pi_k \times f_{k 1}\left(x_1\right) \times f_{k 2}\left(x_2\right) \times \cdots \times f_{k p}\left(x_p\right)}{\sideset{}{_{l=1}^K}\sum \pi_l \times f_{l 1}\left(x_1\right) \times f_{l 2}\left(x_2\right) \times \cdots \times f_{l p}\left(x_p\right)} \hspace{6em } (5.30)
+{Pr}(Y = k \mid X = x) = \frac{\pi_k \times f_ {k 1}\left(x_ 1\right) \times f_ {k 2}\left(x_2\right) \times \cdots \times f_ {k p}\left(x_ p\right)}{\sideset{}{_ {l = 1}^K}\sum \pi_ l \times f_ {l 1}\left(x_ 1\right) \times f_ {l 2}\left(x_ 2\right) \times \cdots \times f_ {l p}\left(x_p\right)} \hspace{6em } (5.30)
 $$
 
 
