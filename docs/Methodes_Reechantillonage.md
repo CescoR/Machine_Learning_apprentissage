@@ -271,7 +271,7 @@ En réalité, les quantités $\sigma_X^2$ , $\sigma_Y^2$ , et $\sigma_{X Y}$ son
 
 
 $$
-\hat{\alpha}=\frac{\hat{\sigma}_Y^2-\hat{\sigma}_{X Y}}{\hat{\sigma}_X^2+\hat{\sigma}_Y^2-2 \hat{\sigma}_{X Y}} \hspace{6 em} (6.7)
+\hat{\alpha}=\frac{\hat{\sigma}_ Y^2 - \hat{\sigma}_ {X Y}}{\hat{\sigma}_ X^2 + \hat{\sigma}_ Y^2 - 2 \hat{\sigma}_ {X Y}} \hspace{6 em} (6.7)
 $$
 
 
