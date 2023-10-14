@@ -11,13 +11,9 @@ Dans le cadre de la régression, le modèle linéaire standard
 
 
 
-
 $$
 Y = \beta_ 0 + \beta_ 1 X_ 1 + \cdots + \beta_ p X_ p + \epsilon \hspace{6 em}      (7.1)
 $$
-
-
-
 
 
 
