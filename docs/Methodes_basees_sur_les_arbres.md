@@ -225,9 +225,12 @@ La tâche de croissance d'un arbre de classification est assez similaire à cell
 
 
 
+
 $$
-E=1-\max _{k}(\hat p_{m k}) . \hspace{6 em} (9.5)
+E = 1 - \max_ {k}(\hat p_ {m k}) . \hspace{6 em} (9.5)
 $$
+
+
 
 
 
