@@ -81,9 +81,12 @@ Nous allons maintenant développer l'étape 1 ci-dessus. Comment construisons-no
 
 
 
+
 $$
-\sideset{}{^J_{j=1}}\sum \sideset{}{_{i \in R_j}}\sum(y_i-\hat{y}_{R_j})^2, \hspace{6 em} (9.1)
+\sideset{}{^J_ {j = 1}}\sum \sideset{}{_ {i \in R_ j}}\sum(y_ i - \hat{y}_ {R_ j})^2, \hspace{6 em} (9.1)
 $$
+
+
 
 
 
@@ -114,7 +117,7 @@ et nous cherchons la valeur de $j$ et $s$ qui minimise l'équation
 
 
 $$
-\sideset{}{_{i: x_i \in R_1(j, s)}}\sum(y_i-\hat y_{R_1})^2+\sideset{}{_{i: x_i \in R_2(j, s)}}\sum(y_i-\hat y_{R_2})^2, \hspace{6 em} (9.3)
+\sideset{}{_ {i: x_ i \in R_ 1(j, s)}}\sum(y_ i - \hat y_ {R_ 1})^2 + \sideset{}{_ {i: x_ i \in R_ 2(j, s)}}\sum(y_ i - \hat y_ {R_ 2})^2, \hspace{6 em} (9.3)
 $$
 
 
@@ -149,9 +152,12 @@ Par conséquent, une meilleure stratégie consiste à faire croître un très gr
 
 
 
+
 $$
-\sideset{}{^{|T|}_{m=1}}\sum \sideset{}{_{i:x_i \in R_m}}\sum(y_i-\hat y_{R_m})^2+\alpha|T| \hspace{6 em} (9.4)
+\sideset{}{^{|T|}_ {m = 1}}\sum \sideset{}{_ {i:x_ i \in R_ m}}\sum(y_ i - \hat y_ {R_ m})^2 + \alpha|T| \hspace{6 em} (9.4)
 $$
+
+
 
 
 
@@ -233,9 +239,12 @@ Ici, $\hat p_{mk}$ représente la proportion d'observations d'apprentissage dans
 
 
 
+
 $$
-G=\sideset{}{^K_{k=1}}\sum \hat p_{m k}(1-\hat p_{m k}) \hspace{6 em} (9.6)
+G = \sideset{}{^K_ {k = 1}}\sum \hat p_ {m k}(1 - \hat p_ {m k}) \hspace{6 em} (9.6)
 $$
+
+
 
 
 
@@ -542,9 +551,12 @@ Dans la première itération de l'algorithme BART, tous les arbres sont initiali
 
 
 
+
 $$
-r_i=y_i-\sideset{}{_{k^{\prime} < k}}\sum \hat f_{k^{\prime}}^b(x_i)-\sideset{}{_{k^{\prime} > k}}\sum \hat f_{k^{\prime}}^{b-1}(x_i)
+r_ i = y_ i - \sideset{}{_ {k^{\prime} < k}}\sum \hat f_ {k^{\prime}}^b(x_ i) - \sideset{}{_ {k^{\prime} > k}}\sum \hat f_ {k^{\prime}}^{b - 1}(x_ i)
 $$
+
+
 
 
 
