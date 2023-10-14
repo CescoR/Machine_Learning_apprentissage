@@ -191,9 +191,12 @@ Jusqu'à présent, dans ce chapitre, nous avons illustré l'utilisation de la va
 
 
 
+
 $$
-\mathrm{CV}_{(n)}=\frac{1}{n} \sum_{i=1}^n {Err}_i
+\mathrm{CV}_ {(n)}=\frac{1}{n} \sum_{i=1}^n {Err}_ i
 $$
+
+
 
 
 
