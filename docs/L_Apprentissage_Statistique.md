@@ -4,41 +4,7 @@
 
 <a name="toc"/>
 
-[2.1 Qu'est-ce que l'apprentissage statistique?](#2-1)
-
-- [2.1.1 Pourquoi estimer f?](#2-1-1)
-
-  - [2.1.1.1 Prédiction](#2-1-1-1)
-
-  - [2.1.1.2 Inférence](#2-1-1-2)
-
-  - [2.1.1.3 Exemple sur la prédiction et l'inférence](#2-1-1-3)
-
-- [2.1.2 Comment estimer f?](#2-1-2)
-
-  - [2.1.2.1 Méthodes paramétriques?](#2-1-2-1)
-
-  - [2.1.2.2 Méthodes non paramétriques?](#2-1-2-2)
-
-- [2.1.3 Le compromis entre la précision de la prédiction et l'interprétation du modèle interprétable?](#2-1-3)
-
-- [2.1.4 Apprentissage supervisé et apprentissage non supervisé](#2-1-4)
-
-- [2.1.5 Problèmes de régression et de classification](#2-1-5)
-
-[2.2 Évaluation de la précision du modèle?](#2-2)
-
-- [2.2.1 Mesurer la qualité de l'ajustement?](#2-2-1)
-
-[2.3 Le compromis biais-variance?](#2-3)
-
-[2.4 Le contexte de la classification](#2-4)
-
-[2.5 Le classificateur de Bayes](#2-5)
-
-[2.6 Voisins les plus proches (K-Nearest Neighbors)](#2-6)
-
-
+[toc]
 
 <a name="2-1"/>
 
