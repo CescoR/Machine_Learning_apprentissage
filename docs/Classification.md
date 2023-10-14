@@ -1012,9 +1012,12 @@ Les fonctions de densité estimées $\hat{f}_{k j}$ pour $k=1,2$ et $j=1,2,3$ so
 
 
 
+
 $$
-\hat{f}_{11}(0,4)=0,368,\ \hat{f}_{12}(1,5)=0,484,\ \hat{f}_{13}(1)=0,226 ,\ et\ \hat{f}_{21}(0,4)= 0,030$,\ \hat{f}_{22}(1,5)=0,130,\ \hat{f}_{23}(1)=0,616
+\hat{f}_ {11}(0,4) = 0,368,\ \hat{f}_ {12}(1,5) = 0,484,\ \hat{f}_ {13}(1) = 0,226 ,\ et\ \hat{f}_ {21}(0,4) = 0,030$,\ \hat{f}_ {22}(1,5) = 0,130,\ \hat{f}_ {23}(1) = 0,616
 $$
+
+
 
 
 
@@ -1184,13 +1187,9 @@ Comment la régression logistique s'inscrit-elle dans cette histoire ? Rappelez-
 
 
 
-
-
 $$
-\log \left(\frac{{Pr}(Y=k \mid X=x)}{{Pr}(Y=K \mid X=x)}\right)=\beta_{k 0}+\sideset{}{_{j=1}^p}\sum \beta_{k j} x_j .
+\log \left(\frac{{Pr}(Y = k \mid X = x)}{{Pr}(Y = K \mid X = x)}\right) = \beta_ {k 0} + \sideset{}{_ {j = 1}^p}\sum \beta_{k j} x_ j .
 $$
-
-
 
 
 
