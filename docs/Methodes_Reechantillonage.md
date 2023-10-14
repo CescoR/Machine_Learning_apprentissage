@@ -333,7 +333,7 @@ Cette approche est illustrée à la $figure\ 6.11$ sur un ensemble de données s
 
 
 $$
-\mathrm{SE}_B(\hat{\alpha})=\sqrt{\frac{1}{B-1} \sideset{}{_{r=1}^B}\sum\left(\hat{\alpha}^{* r}-\frac{1}{B} \sideset{}{_{r^{\prime}=1}^B} \sum \hat{\alpha}^{* r^{\prime}}\right)^2} \hspace {6 em} (6.8)
+\mathrm{SE}_ B(\hat{\alpha}) = \sqrt{\frac{1}{B - 1} \sideset{}{_ {r = 1}^B}\sum\left(\hat{\alpha}^{* r} - \frac{1}{B} \sideset{}{_ {r^{\prime} = 1}^B} \sum \hat{\alpha}^{* r^{\prime}}\right)^2} \hspace {6 em} (6.8)
 $$
 
 
