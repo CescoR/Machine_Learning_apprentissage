@@ -16,7 +16,7 @@ Jusqu'à présent, dans cet ouvrage, nous nous sommes principalement concentrés
 - **La régression locale** est similaire aux splines, mais en diffère de manière importante. Les régions sont autorisées à se chevaucher, et elles le font effectivement de manière très lisse.
 - **Les modèles additifs généralisés** nous permettent d'étendre les méthodes ci-dessus pour traiter des prédicteurs multiples.
 
-Dans les sections 8.1-8.6, nous présentons un certain nombre d'approches permettant de modéliser de manière flexible la relation entre une réponse $Y$ et un prédicteur unique $X$. Dans la section $8.7$, nous montrons que ces approches peuvent être intégrées de manière transparente afin de modéliser une réponse $Y$ en fonction de plusieurs prédicteurs $X_1, \ldots, X_p$.
+Dans les sections 8.1-8.6, nous présentons un certain nombre d'approches permettant de modéliser de manière flexible la relation entre une réponse $Y$ et un prédicteur unique $X$ . Dans la section $8.7$ , nous montrons que ces approches peuvent être intégrées de manière transparente afin de modéliser une réponse $Y$ en fonction de plusieurs prédicteurs $X_ 1, \ldots, X_ p$ .
 
 <a name="8-1"/>
 
@@ -426,9 +426,12 @@ Dans le contexte des splines de lissage, pourquoi parle-t-on de degrés de liber
 
 
 
+
 $$
-\hat{\mathrm{g}}_\lambda=\mathbf{S}_{\lambda \mathbf{y}}, \hspace{6 em} (8.12)
+\hat{\mathrm{g}}_ \lambda = \mathbf{S}_ {\lambda \mathbf{y}}, \hspace{6 em} (8.12)
 $$
+
+
 
 
 
@@ -438,9 +441,12 @@ où $\hat g_\lambda$ est la solution de (8.11) pour un choix particulier de $\la
 
 
 
+
 $$
-d f_\lambda=\sideset{}{^n_{i=1}}\sum\{\mathbf{S}_\lambda\}_{1 \mathrm{i}}, \hspace{6 em} (8.13)
+d f_ \lambda = \sideset{}{^n_ {i = 1}}\sum\{\mathbf{S}_ \lambda\}_ {1 \mathrm{i}}, \hspace{6 em} (8.13)
 $$
+
+
 
 
 
@@ -452,9 +458,12 @@ Lors de l'ajustement d'une spline de lissage, nous n'avons pas besoin de choisir
 
 
 
+
 $$
-{RSS}_{c v}(\lambda)=\sideset{}{^n_{i=1}}\sum(y_i-\hat{g}_\lambda^{(-1)}(x_i))^2=\sideset{}{^n_{i=1}}\sum \biggl[\frac{y_i-\hat{g}_\lambda(x_i)}{1-\{\mathbf{S}_\lambda\}_{11}} \biggl ]^2 .
+{RSS}_ {c v}(\lambda) = \sideset{}{^n_ {i = 1}}\sum(y_ i - \hat{g}_ \lambda^{(-1)}(x_i))^2 = \sideset{}{^n_ {i = 1}}\sum \biggl[\frac{y_ i - \hat{g}_ \lambda(x_ i)}{1 - \{\mathbf{S}_ \lambda\}_ {11}} \biggl ]^2 .
 $$
+
+
 
 
 
@@ -495,7 +504,7 @@ Pour effectuer une régression locale, il faut faire un certain nombre de choix,
 
 ------
 
-***Algorithme 8.1*** Régression locale à $X=x_0
+***Algorithme 8.1*** Régression locale à $X = x_ 0$
 
 1. Rassembler la fraction $s=k / n$ des points d'apprentissage dont les $x_i$ sont les plus proches de $x_0$.
 
