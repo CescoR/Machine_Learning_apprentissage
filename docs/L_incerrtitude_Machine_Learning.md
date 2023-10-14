@@ -168,16 +168,29 @@ Soit $X$ une variable aléatoire réelle, de loi ${\mathcal {D}}_{\theta }$, de 
 On appelle vraisemblance de $\theta$ au vu des observations ${\displaystyle (x_{1},\ldots ,x_{n})}$ d'un n-échantillon indépendamment et identiquement distribué selon la loi  ${\mathcal {D}}_{\theta }$, le nombre :
 
 
+
+
+
 $$
-{\displaystyle L(x_{1},\ldots ,x_{n};\theta )=f(x_{1};\theta )\times \ldots \times f(x_{n};\theta )=\prod _{i=1}^{n}f(x_{i};\theta )}A ( x 1 , … , x n ) {\displaystyle (x_{1},\ldots ,x_{n})}
+{\displaystyle L(x_ {1},\ldots ,x_ {n};\theta ) = f(x_ {1};\theta )\times \ldots \times f(x_ {n};\theta ) = \prod _ {i = 1}^{n}f(x_ {i};\theta )}A ( x_ 1 , … , x_ n ) {\displaystyle (x_{1},\ldots ,x_ {n})}
 $$
+
+
+
+
 
  fixé, on cherche à trouver le maximum de cette vraisemblance pour que les probabilités des réalisations observées soient aussi maximum. Ceci est un problème d'optimisation. Ainsi, un estimateur du maximum de vraisemblance est tout estimateur $\widehat {\theta }$ de $\theta$  vérifiant 
 
 
+
+
+
 $$
-{\displaystyle \sup _{\theta }L(x_{1},\ldots ,x_{n};\theta )=L(x_{1},\ldots ,x_{n};{\hat {\theta }})}.
+{\displaystyle \sup_ {\theta }L(x_ {1},\ldots ,x_ {n};\theta ) = L(x_ {1},\ldots ,x_ {n};{\hat {\theta }})}.
 $$
+
+
+
 
 
 A priori, il n'y a ni existence, ni unicité d'un estimateur du maximum de vraisemblance. Cependant, en pratique, dans la plupart des cas, il existe, est unique, et on peut le calculer. 
@@ -245,9 +258,9 @@ De nombreux modèles de Machine Learning sont formés à l'aide d'un algorithme 
 
   L'entropie, les différences entre les distributions mesurées et l'entropie croisée  sont issues du domaine de la théorie de l'information qui s'appuie directement sur la théorie des probabilités. Par exemple, l'entropie est calculée directement comme le log négatif de la probabilité.
 
-1. ------
+------
 
-   **Estimation du Maximum de Vraisemblance (MLE)**:
+1. **Estimation du Maximum de Vraisemblance (MLE)**:
 
    - Le MLE est une méthode pour estimer les paramètres d'un modèle de telle sorte qu'ils maximisent la probabilité (ou vraisemblance) des données observées sous le modèle donné.
    - Par exemple, si vous avez des données qui semblent suivre une ligne droite (avec une certaine variabilité ou bruit), le MLE vous aidera à trouver la ligne qui "s'adapte" le mieux à ces données dans le sens où elle rend les données "les plus probables".
@@ -265,12 +278,15 @@ De nombreux modèles de Machine Learning sont formés à l'aide d'un algorithme 
    
 
    
+
    $$
-   L(\theta)=P\left(X_ 1, X_ 2, \ldots, X_ n \mid \theta\right)
+   L(\theta) = P\left(X_ 1, X_ 2, \ldots, X_ n \mid \theta\right)
    $$
+
    
 
    
+
 
    L'objectif est de trouver la valeur de $\theta$ qui maximise cette vraisemblance.
 
@@ -285,26 +301,30 @@ De nombreux modèles de Machine Learning sont formés à l'aide d'un algorithme 
    
 
    
+
    $$
    L(p) = p^{\left(\sum x_ i\right)}(1 - p)^{n - \sum x_ i}
    $$
-   
 
    
 
    
+
 
    Pour maximiser $L(p)$, il est souvent plus facile de maximiser son logarithme (**logvraisemblance**):
 
    
 
    
+
    $$
    l(p) = \sum X_ i \log (p) + \left(n - \sum X_ i\right) \log (1 - p)
    $$
+
    
 
    
+
 
    En utilisant les techniques de calcul, nous dérivons $l(p)$ par rapport à $p$, égalons à zéro, et résolvons pour $p$.
 
@@ -313,26 +333,32 @@ De nombreux modèles de Machine Learning sont formés à l'aide d'un algorithme 
    
 
    
+
    $$
    \frac{d l}{d p} = \frac{\sum X_ i}{p} - \frac{n - \sum X_ i}{1 - p}
    $$
-   
 
    
 
    
+
+   
+
 
    Égalons cela à zéro et résolvons pour $p$, nous obtenons:
 
    
 
    
+
    $$
    p = \frac{\sum X_ i}{n}
    $$
+
    
 
    
+
 
    Ce qui est exactement ce que nous attendons: **la proportion d'observations où la pièce atterrit sur Face est notre meilleure estimation de p**.
 
@@ -347,12 +373,15 @@ De nombreux modèles de Machine Learning sont formés à l'aide d'un algorithme 
    
 
    
+
    $$
    P(X = k) = p^k(1 - p)^{1 - k}
    $$
+
    
 
    
+
 
    où $k$ est soit 0 soit 1 .
 
@@ -361,36 +390,45 @@ De nombreux modèles de Machine Learning sont formés à l'aide d'un algorithme 
    
 
    
+
    $$
    L(p) = \prod_ {i - 1}^n p^{X_ i}(1 - p)^{1 - x_ i}
    $$
+
    
 
    
+
 
    Pour le MLE, nous voulons maximiser cette vraisemblance pour trouver la meilleure estimation de $p$. Comme précédemment mentionné, il est souvent plus facile de travailler avec la log-vraisemblance:
 
    
 
    
+
    $$
    l(p)=\sum_ {i - 1}^n\left[X_ i \log (p) + \left(1 - X_ i\right) \log (1 - p)\right]
    $$
+
    
 
    
+
 
    La dérivation et la résolution de la log-vraisemblance par rapport à $p$ (comme nous l'avons fait précédemment) vous donnera l'estimation du maximum de vraisemblance pour $p$, qui est :
 
    
 
    
+
    $$
    \hat{p} = \frac{\sum X_ i}{n}
    $$
+
    
 
    
+
 
    où $\hat{p}$ est l'estimateur MLE de $p$. Cette estimation est intuitive : elle est simplement la proportion d'observations où $X_i=1$, ou dans le contexte de notre exemple, la proportion de lancers où la pièce a atterri sur Face.
 
@@ -543,9 +581,14 @@ Elle est une mesure de performance pour les modèles de classification qui produ
 
 
 
+
+
+
 $$
 \log \operatorname{Loss} = -\frac{1}{N} \sum_ {i = 1}^N\left[y_ i \log \left(p\left(y_ i\right)\right) + \left(1 - y_ i\right) \log \left(1- p\left(y_ i\right)\right)\right]
 $$
+
+
 
 
 
