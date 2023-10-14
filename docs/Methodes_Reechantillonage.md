@@ -84,7 +84,7 @@ Nous pouvons répéter la procédure en sélectionnant $\left(x_2, y_2\right)$ p
 
 
 $$
-\mathrm{CV}_{(n)}=\frac{1}{n} \sum_{i=1}^n \mathrm{MSE}_i
+\mathrm{CV}_ {(n)} = \frac{1}{n} \sum_ {i = 1}^n \mathrm{MSE}_ i
 $$
 
 
@@ -121,8 +121,9 @@ Une alternative à LOOCV est la $CV$ $k{-}fold$. Cette approche consiste à divi
 
 
 
+
 $$
-\mathrm{CV}_{(k)}=\frac{1}{k} \sum_{i=1}^k \mathrm{MSE}_i \text {. }
+\mathrm{CV}_ {(k)} = \frac{1}{k} \sum_ {i = 1}^k \mathrm{MSE}_ i \text {. }
 $$
 
 
@@ -137,8 +138,9 @@ Il n'est pas difficile de voir que la méthode LOOCV est un cas particulier de l
 
 
 
+
 $$
-\mathrm{CV}_{(n)}=\frac{1}{n} \sum_{i=1}^n\left(\frac{y_i-\hat{y}_i}{1-h_i}\right)^2
+\mathrm{CV}_ {(n)} = \frac{1}{n} \sum_ {i = 1}^n\left(\frac{y_ i - \hat{y}_ i}{1 - h_ i}\right)^2
 $$
 
 
