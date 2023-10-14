@@ -6,6 +6,8 @@
 
 [toc]
 
+## Introduction ##
+
 Dans le cadre de la régression, le modèle linéaire standard
 
 
