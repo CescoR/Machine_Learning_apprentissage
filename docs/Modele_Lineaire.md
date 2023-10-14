@@ -10,15 +10,7 @@
 
 Dans le cadre de la régression, le modèle linéaire standard
 
-
-
-
-$$
-Y = \beta_ 0 + \beta_ 1 X_ 1 + \cdots + \beta_ p X_ p + \epsilon \hspace{6 em}      (7.1)
-$$
-
-
-
+$Y = \beta_ 0 + \beta_ 1 X_ 1 + \cdots + \beta_ p X_ p + \epsilon \hspace{6 em}      (7.1)$
 
 
 est couramment utilisé pour décrire la relation entre une réponse $Y$ et un ensemble de variables $X_1, X_2, \ldots, X_p$. Nous avons vu au chapitre 3 que l'on ajuste généralement ce modèle en utilisant les moindres carrés.
