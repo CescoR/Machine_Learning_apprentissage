@@ -277,164 +277,165 @@ De nombreux modèles de Machine Learning sont formés à l'aide d'un algorithme 
 
    
 
-   
 
-   $$
-   L(\theta) = P\left(X_ 1, X_ 2, \ldots, X_ n \mid \theta\right)
-   $$
 
-   
 
-   
+$$
+L(\theta) = P\left(X_ 1, X_ 2, \ldots, X_ n \mid \theta\right)
+$$
 
 
-   L'objectif est de trouver la valeur de $\theta$ qui maximise cette vraisemblance.
 
-   **Démonstration simplifiée avec un exemple:**
 
-   Supposons que nous ayons une série de lancers de pièce, et nous voulons estimer la probabilité $p$ que la pièce atterrisse sur Face.
 
-   Supposons que nos données soient: $X_1, X_2, \ldots, X_n$ où chaque $X_i$ est 1 si le résultat est Face et 0 si c'est Pile.
 
-   Si nous supposons que chaque lancer est indépendant, alors la vraisemblance de nos données observées, étant donné $p$, est:
+L'objectif est de trouver la valeur de $\theta$ qui maximise cette vraisemblance.
 
-   
+**Démonstration simplifiée avec un exemple:**
 
-   
+Supposons que nous ayons une série de lancers de pièce, et nous voulons estimer la probabilité $p$ que la pièce atterrisse sur Face.
 
-   $$
-   L(p) = p^{\left(\sum x_ i\right)}(1 - p)^{n - \sum x_ i}
-   $$
+Supposons que nos données soient: $X_1, X_2, \ldots, X_n$ où chaque $X_i$ est 1 si le résultat est Face et 0 si c'est Pile.
 
-   
+Si nous supposons que chaque lancer est indépendant, alors la vraisemblance de nos données observées, étant donné $p$, est:
 
-   
 
 
-   Pour maximiser $L(p)$, il est souvent plus facile de maximiser son logarithme (**logvraisemblance**):
 
-   
 
-   
+$$
+L(p) = p^{\left(\sum x_ i\right)}(1 - p)^{n - \sum x_ i}
+$$
 
-   $$
-   l(p) = \sum X_ i \log (p) + \left(n - \sum X_ i\right) \log (1 - p)
-   $$
 
-   
 
-   
 
 
-   En utilisant les techniques de calcul, nous dérivons $l(p)$ par rapport à $p$, égalons à zéro, et résolvons pour $p$.
 
-   La dérivée est:
+Pour maximiser $L(p)$, il est souvent plus facile de maximiser son logarithme (**logvraisemblance**):
 
-   
 
-   
 
-   $$
-   \frac{d l}{d p} = \frac{\sum X_ i}{p} - \frac{n - \sum X_ i}{1 - p}
-   $$
 
-   
 
-   
+$$
+l(p) = \sum X_ i \log (p) + \left(n - \sum X_ i\right) \log (1 - p)
+$$
 
-   
 
 
-   Égalons cela à zéro et résolvons pour $p$, nous obtenons:
 
-   
 
-   
 
-   $$
-   p = \frac{\sum X_ i}{n}
-   $$
+En utilisant les techniques de calcul, nous dérivons $l(p)$ par rapport à $p$, égalons à zéro, et résolvons pour $p$.
 
-   
+La dérivée est:
 
-   
 
 
-   Ce qui est exactement ce que nous attendons: **la proportion d'observations où la pièce atterrit sur Face est notre meilleure estimation de p**.
 
-   **En résumé**: Le MLE est une méthode d'estimation qui utilise le concept de vraisemblance (ou sa version log-transformée) pour trouver la valeur du paramètre qui rend les données observées "les plus probables".
 
-   **Continuons sur l'exemple du lancer de pièce, qui est en fait un exemple classique de la loi de Bernoulli.**
+$$
+\frac{d l}{d p} = \frac{\sum X_ i}{p} - \frac{n - \sum X_ i}{1 - p}
+$$
 
-   La loi de Bernoulli est une distribution de probabilité discrète d'une variable aléatoire qui prend la valeur 1 avec une probabilité $p$ et la valeur 0 avec une probabilité $1-p$. Dans le contexte de notre lancer de pièce, la valeur 1 pourrait représenter "Face" et la valeur 0 "Pile".
 
-   **La fonction de masse de probabilité** (PMF) pour une variable aléatoire $X$ suivant une loi de Bernoulli est :
 
-   
 
-   
 
-   $$
-   P(X = k) = p^k(1 - p)^{1 - k}
-   $$
 
-   
 
-   
 
+Égalons cela à zéro et résolvons pour $p$, nous obtenons:
 
-   où $k$ est soit 0 soit 1 .
 
-   Si vous avez un échantillon de $n$ observations indépendantes $X_1, X_2, \ldots, X_n$ qui suit une lo de Bernoulli, alors la vraisemblance de cet échantillon, étant donné $p$, est le produit des PMF pour chaque observation :
 
-   
 
-   
 
-   $$
-   L(p) = \prod_ {i - 1}^n p^{X_ i}(1 - p)^{1 - x_ i}
-   $$
+$$
+p = \frac{\sum X_ i}{n}
+$$
 
-   
 
-   
 
 
-   Pour le MLE, nous voulons maximiser cette vraisemblance pour trouver la meilleure estimation de $p$. Comme précédemment mentionné, il est souvent plus facile de travailler avec la log-vraisemblance:
 
-   
 
-   
+Ce qui est exactement ce que nous attendons: **la proportion d'observations où la pièce atterrit sur Face est notre meilleure estimation de p**.
 
-   $$
-   l(p)=\sum_ {i - 1}^n\left[X_ i \log (p) + \left(1 - X_ i\right) \log (1 - p)\right]
-   $$
+**En résumé**: Le MLE est une méthode d'estimation qui utilise le concept de vraisemblance (ou sa version log-transformée) pour trouver la valeur du paramètre qui rend les données observées "les plus probables".
 
-   
+**Continuons sur l'exemple du lancer de pièce, qui est en fait un exemple classique de la loi de Bernoulli.**
 
-   
+La loi de Bernoulli est une distribution de probabilité discrète d'une variable aléatoire qui prend la valeur 1 avec une probabilité $p$ et la valeur 0 avec une probabilité $1-p$. Dans le contexte de notre lancer de pièce, la valeur 1 pourrait représenter "Face" et la valeur 0 "Pile".
 
+**La fonction de masse de probabilité** (PMF) pour une variable aléatoire $X$ suivant une loi de Bernoulli est :
 
-   La dérivation et la résolution de la log-vraisemblance par rapport à $p$ (comme nous l'avons fait précédemment) vous donnera l'estimation du maximum de vraisemblance pour $p$, qui est :
 
-   
 
-   
 
-   $$
-   \hat{p} = \frac{\sum X_ i}{n}
-   $$
 
-   
+$$
+P(X = k) = p^k(1 - p)^{1 - k}
+$$
 
-   
 
 
-   où $\hat{p}$ est l'estimateur MLE de $p$. Cette estimation est intuitive : elle est simplement la proportion d'observations où $X_i=1$, ou dans le contexte de notre exemple, la proportion de lancers où la pièce a atterri sur Face.
 
-   Ainsi, le MLE pour une variable aléatoire de Bernoulli est très naturel et correspond à la moyenne empirique des données observées.
 
-2. **Algorithme de Maximisation des Espérances (EM)**:
+
+où $k$ est soit 0 soit 1 .
+
+Si vous avez un échantillon de $n$ observations indépendantes $X_1, X_2, \ldots, X_n$ qui suit une lo de Bernoulli, alors la vraisemblance de cet échantillon, étant donné $p$, est le produit des PMF pour chaque observation :
+
+
+
+
+
+$$
+L(p) = \prod_ {i - 1}^n p^{X_ i}(1 - p)^{1 - x_ i}
+$$
+
+
+
+
+
+
+Pour le MLE, nous voulons maximiser cette vraisemblance pour trouver la meilleure estimation de $p$. Comme précédemment mentionné, il est souvent plus facile de travailler avec la log-vraisemblance:
+
+
+
+
+
+$$
+l(p)=\sum_ {i - 1}^n\left[X_ i \log (p) + \left(1 - X_ i\right) \log (1 - p)\right]
+$$
+
+
+
+
+
+
+La dérivation et la résolution de la log-vraisemblance par rapport à $p$ (comme nous l'avons fait précédemment) vous donnera l'estimation du maximum de vraisemblance pour $p$, qui est :
+
+
+
+
+
+$$
+\hat{p} = \frac{\sum X_ i}{n}
+$$
+
+
+
+
+
+
+où $\hat{p}$ est l'estimateur MLE de $p$. Cette estimation est intuitive : elle est simplement la proportion d'observations où $X_i=1$, ou dans le contexte de notre exemple, la proportion de lancers où la pièce a atterri sur Face.
+
+Ainsi, le MLE pour une variable aléatoire de Bernoulli est très naturel et correspond à la moyenne empirique des données observées.
+
+1. **Algorithme de Maximisation des Espérances (EM)**:
 
    - C'est une technique d'optimisation souvent utilisée lorsque vous avez des données "manquantes" ou cachées. L'algorithme fonctionne en deux étapes: 
      - une étape d'**E** (espérance) où vous estimez l'espérance basée sur les données observées et les paramètres actuels, et 
@@ -449,7 +450,7 @@ De nombreux modèles de Machine Learning sont formés à l'aide d'un algorithme 
 
      Ces étapes sont répétées jusqu'à ce que les centres des clusters ne bougent plus beaucoup.
 
-3. **Minimiser la différence entre les distributions de probabilité**:
+2. **Minimiser la différence entre les distributions de probabilité**:
 
    - Lorsque vous formez un modèle pour prédire des probabilités (comme dans la classification), vous voulez que votre modèle prédise des probabilités qui sont proches de la "vérité". **La manière de mesurer cette "proximité" est souvent l'entropie croisée**.
 
@@ -457,7 +458,7 @@ De nombreux modèles de Machine Learning sont formés à l'aide d'un algorithme 
 
    - Supposons que pour une image donnée d'un chat, le "vrai" label est [1, 0] (il s'agit d'un chat, pas d'un chien). Si votre modèle prédit [0.9, 0.1], l'entropie croisée entre la prédiction et la vérité serait faible, ce qui est bon. Mais si votre modèle prédit [0.1, 0.9], l'entropie croisée serait élevée, indiquant une mauvaise prédiction.
 
-4. **Entropie et Théorie de l'Information**:
+3. **Entropie et Théorie de l'Information**:
 
    - L'entropie mesure l'incertitude dans une distribution de probabilité. La théorie de l'information utilise des concepts tels que l'entropie pour quantifier la quantité d'information dans des signaux, des distributions, etc.
 
@@ -585,7 +586,7 @@ Elle est une mesure de performance pour les modèles de classification qui produ
 
 
 $$
-\log \operatorname{Loss} = -\frac{1}{N} \sum_ {i = 1}^N\left[y_ i \log \left(p\left(y_ i\right)\right) + \left(1 - y_ i\right) \log \left(1- p\left(y_ i\right)\right)\right]
+\log {Loss} = -\frac{1}{N} \sum_ {i = 1}^N\left[y_ i \log \left(p\left(y_ i\right)\right) + \left(1 - y_ i\right) \log \left(1- p\left(y_ i\right)\right)\right]
 $$
 
 
