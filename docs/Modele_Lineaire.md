@@ -11,9 +11,12 @@ Dans le cadre de la régression, le modèle linéaire standard
 
 
 
+
 $$
-Y=\beta_0+\beta_1 X_1+\cdots+\beta_p X_p+\epsilon \hspace{6 em}      (7.1)
+Y = \beta_ 0 + \beta_ 1 X_ 1 + \cdots + \beta_ p X_ p + \epsilon \hspace{6 em}      (7.1)
 $$
+
+
 
 
 
@@ -450,10 +453,8 @@ On peut montrer que les estimations des coefficients de régression lasso et rid
 
 
 $$
-\underset\beta{minimize}\left\lbrace\sideset{}{_{i=1}^n}\sum\Biggl(y_i-\beta_0-\sum_{j=1}^p \beta_j x_{i j}\Biggl)^2\right\rbrace \text { subject to } { subject to } \sideset{}{_{j=1}^p}\sum |\beta_j| \leq s \hspace{6 em}(7.8)
+\underset\beta{minimize}\left\lbrace\sideset{}{_ {i = 1}^n}\sum\Biggl(y_ i - \beta_ 0 - \sum_ {j = 1}^p \beta_ j x_ {i j}\Biggl)^2\right\rbrace \text { subject to } { subject to } \sideset{}{_ {j = 1}^p}\sum |\beta_ j| \leq s \hspace{6 em}(7.8)
 $$
-
-
 
 
 
@@ -463,19 +464,9 @@ et
 
 
 
-
-
-
-
 $$
-\underset\beta{minimize}\left\lbrace\sideset{}{_{i=1}^n}\sum\Biggl(y_i-\beta_0-\sum_{j=1}^p \beta_j x_{i j}\Biggl)^2\right\rbrace \text { subject to } { subject to } \sideset{}{_{j=1}^p}\sum  \beta_j^2 \leq s, \hspace{6 em}(7.9)
+\underset\beta{minimize}\left\lbrace\sideset{}{_ {i = 1}^n}\sum\Biggl(y_ i - \beta_ 0 - \sum_ {j = 1}^p \beta_ j x_ {i j}\Biggl)^2\right\rbrace \text { subject to } { subject to } \sideset{}{_ {j = 1}^p}\sum  \beta_ j^2 \leq s, \hspace{6 em}(7.9)
 $$
-
-
-
-
-
-
 
 
 
@@ -494,7 +485,7 @@ Les formulations (7.8) et (7.9) révèlent un lien étroit entre le lasso, la r�
 
 
 $$
-\underset\beta{minimize}\left\lbrace\sideset{}{_{i=1}^n}\sum\Biggl(y_i-\beta_0-\sum_{j=1}^p \beta_j x_{i j}\Biggl)^2\right\rbrace \text { subject to } \sum_{j=1}^p I\left(\beta_j \neq 0\right) \leq s \text {. } \hspace{6 em}(7.10)
+\underset\beta{minimize}\left\lbrace\sideset{}{_ {i = 1}^n}\sum\Biggl(y_ i - \beta_ 0 - \sum_ {j = 1}^p \beta_ j x_ {i j}\Biggl)^2\right\rbrace \text { subject to } \sum_ {j = 1}^p I\left(\beta_ j \neq 0\right) \leq s \text {. } \hspace{6 em}(7.10)
 $$
 
 
@@ -885,7 +876,7 @@ Nous pouvons considérer les valeurs de la composante principale $Z_1$ comme des
 
 
 $$
-\text { if } z_{i 1}=0.839 \times(\mathrm{pop}_i-\overline{\mathrm{pop}})+0.544 \times(\mathrm{ad}_{i}-\overline{\mathrm{ad}})<0
+\text { if } z_ {i 1} = 0.839 \times(\mathrm{pop}_ i - \overline{\mathrm{pop}}) + 0.544 \times(\mathrm{ad}_ {i} - \overline{\mathrm{ad}}) < 0
 $$
 
 
