@@ -897,8 +897,8 @@ v_ {L + 2} \\
 v_ {L + 3} \\
 \vdots \\
 v_ T
-\end{array}\right] \quad \mathbf{M}=\left[\begin{array}{ccccc}
-
+\end{array}\right] 
+\mathbf{M}=\left[\begin{array}{ccccc}
 1 & v_ L & v_ {L - 1} & \cdots & v_ 1 \\
 1 & v_ {L + 1} & v_ L & \cdots & v _ 2 \\
 1 & v_ {L + 2} & v_ {L + 1} & \cdots & v_ 3 \\
