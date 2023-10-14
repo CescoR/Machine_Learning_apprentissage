@@ -625,12 +625,15 @@ Notez qu'un réseau neuronal à deux classes équivaut à un modèle de régress
 
 
 
+
 $$
 \begin{aligned}
-\log \biggl(\frac{{Pr}(Y = 1 \mid X)}{{Pr}(Y=0 \mid X)}\biggl) & = Z_1-Z_0 \hspace{6 em} (10.15)\\ 
-& = (\beta_{10}-\beta_{00})+\sideset{}{^{K_2}_{\ell = 1}}\sum (\beta_{1 \ell}-\beta_{0 \ell}) A_{\ell}^{(2)} .
+\log \biggl(\frac{{Pr}(Y = 1 \mid X)}{{Pr}(Y=0 \mid X)}\biggl) & = Z_ 1 - Z_ 0 \hspace{6 em} (10.15)\\ 
+& = (\beta_ {10} - \beta_ {00}) + \sideset{}{^{K_ 2}_ {\ell = 1}}\sum (\beta_ {1 \ell} - \beta_ {0 \ell}) A_ {\ell}^{(2)} .
 \end{aligned}
 $$
+
+
 
 
 
@@ -884,6 +887,7 @@ Le $RNN$ que nous venons d'ajuster a beaucoup de points communs avec un modèle 
 
 
 
+
 $$
 \mathbf{y}=\left[\begin{array}{c}
 v_{L+1} \\
@@ -904,14 +908,19 @@ $$
 
 
 
+
+
 Les séries $\mathbf{M}$ et $\mathbf{y}$ ont chacune $T - L$ lignes, une par observation. Nous voyons que les prédicteurs pour une réponse donnée $v_t$ le jour $t$ sont les $L$ valeurs précédentes de la même série. Ajuster une régression de $\mathbf{y}$ sur $\mathbf{M}$ revient à ajuster le modèle
 
 
 
 
+
 $$
-\hat{v}_t=\hat{\beta}_0+\hat{\beta}_1 v_{t-1}+\hat{\beta}_2 v_{t-2}+\cdots+\hat{\beta}_L v_{t-L}, \hspace{6 em} (10.22)
+\hat{v}_ t = \hat{\beta}_ 0 + \hat{\beta}_ 1 v_ {t - 1} + \hat{\beta}_ 2 v_ {t - 2} + \cdots + \hat{\beta}_ L v_ {t - L}, \hspace{6 em} (10.22)
 $$
+
+
 
 
 
