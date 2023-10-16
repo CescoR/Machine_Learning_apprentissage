@@ -44,3 +44,6 @@
 <span class="csl-left-margin">\[18\] </span><span class="csl-right-inline">Samuel Ieong. (2006). [Probability Theory Review for Machine Learning]({https://see.stanford.edu/materials/aimlcs229/cs229-prob.pdf}), Stanford</span>
 
 <span class="csl-left-margin">\[19\] </span><span class="csl-right-inline">Zico Kolter. (2007). [Linear Algebra Review and Reference]({https://see.stanford.edu/materials/aimlcs229/cs229-linalg.pdf}), Stanford</span>
+
+<span class="csl-left-margin">\[20\] </span><span class="csl-right-inline">Rajalingappaa Shanmugamani. (2018). [Deep learning for computer vision]({https://searchworks.stanford.edu/view/13463251}), Stanford</span>
+
