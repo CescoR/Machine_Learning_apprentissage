@@ -6,7 +6,7 @@
 
 [toc]
 
-Un complément à la première partie qui fait référence (donnée au cours de ML 1 de Monsieur Ben Taieb) au cours de Samuel Leong [[18]](https://see.stanford.edu/materials/aimlcs229/cs229-prob.pdf)
+Un complément à la première partie qui fait référence au cours de Samuel Leong [[18]](https://see.stanford.edu/materials/aimlcs229/cs229-prob.pdf)
 
 <a name="1"/>
 
