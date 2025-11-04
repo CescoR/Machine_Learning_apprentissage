@@ -113,7 +113,7 @@ L'apprentissage du Machine Learning nécessite l'étude de plusieurs domaines. C
 
 Cette introduction à la probabilité se trouve sur ce lien [Rappel de probabilité et de statistique](./docs/Rappel_Probabilite_et_Statistique.md) .
 
-Un complément à la première partie qui fait référence (donnée au cours de ML 1 de Monsieur Ben Taieb) au cours de Samuel Leong [[18]](https://see.stanford.edu/materials/aimlcs229/cs229-prob.pdf) [Théorie des probabilités Samuel Long](./docs/Probabilite_Samuel_Long.md) .
+Un complément à la première partie qui fait référence au cours de Samuel Leong [[18]](https://see.stanford.edu/materials/aimlcs229/cs229-prob.pdf) [Théorie des probabilités Samuel Long](./docs/Probabilite_Samuel_Long.md) .
 
 ------
 
