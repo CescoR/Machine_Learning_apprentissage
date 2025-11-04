@@ -2190,7 +2190,7 @@ print(D.std(axis=0)) # les std sont tous = 1
 
 # 5. Numpy : qu'est ce que c'est le Broadcasting ? Pourquoi Numpy est si PUISSANT ?!
 
-En réalité, le broadcasting n'est pas vraiment une technique qu'il est nécessaire d'apprendre. C'est plutôt une façon dont NumPy a été construit, permettant de réaliser des calculs entre un tableau $A$ et un tableau $$B de manière très rapide et très simple.
+En réalité, le broadcasting n'est pas vraiment une technique qu'il est nécessaire d'apprendre. C'est plutôt une façon dont NumPy a été construit, permettant de réaliser des calculs entre un tableau $A$ et un tableau $B$ de manière très rapide et très simple.
 
 Typiquement, dans un langage comme C ou C++, si on veut effectuer une opération entre deux tableaux - par exemple, ajouter chacun des éléments - il faudrait écrire une boucle for qui accède à chaque index du tableau, extraire ces deux éléments, les additionner, puis passer à l'élément suivant. Avec la boucle for, il serait nécessaire d'itérer de cette manière sur tout le tableau, ce qui peut être assez long.
 
