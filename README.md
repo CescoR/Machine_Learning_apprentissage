@@ -313,11 +313,11 @@ Le document reprenant tous ces points se trouve en cliquant sur le lien [Python_
 
   Si les gens rencontrent parfois des problèmes, c'est d'une part parce qu'ils essaient d'ajouter beaucoup trop de détails à leur courbe. Ils perdent du temps à perfectionner leur graphique alors qu'ils devraient se concentrer sur leur problème de machine learning. D'autre part, c'est parce qu'il existe deux méthodes pour créer des graphiques dans Matplotlib.
 
-  Une méthode est orientée objet et l'autre est plus basique. Comme l'indique Matplotlib sur leur site officiel, les gens ont tendance à mélanger ces deux méthodes, et ils ne devraient pas. Dans cette vidéo, on mettra les choses au clair.
+  Une méthode est orientée objet et l'autre est plus basique. Comme l'indique Matplotlib sur leur site officiel, les gens ont tendance à mélanger ces deux méthodes, et ils ne devraient pas. 
 
   Il sera expliqué comment créer des graphiques qui ne soient ni trop simples, ni trop sophistiqués. Juste les graphiques parfaits qu'il faut, sans jamais avoir de bug dans ces graphiques. C'est vraiment très simple.
 
-  Comme mentionné précédemment, il existe deux méthodes pour créer des graphiques avec Matplotlib. La méthode la plus simple est d'utiliser une fonction appelée plot qui provient du module Pyplot. C'est ce qui sera exploré en premier dans cette vidéo, puis la méthode orientée objet sera expliquée.
+  Comme mentionné précédemment, il existe deux méthodes pour créer des graphiques avec Matplotlib. La méthode la plus simple est d'utiliser une fonction appelée plot qui provient du module Pyplot. 
 
 Le document reprenant tous ces points se trouve en cliquant sur le lien [Python pour le machine learning MatPlotLib](./docs/Python_pour_la_machine_learning_MatPlotLib.md)
 
